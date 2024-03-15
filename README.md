@@ -23,9 +23,6 @@ int main() {
 }
 ```
 ## Functions
-
-Include the header file in your project and call the `rand()` or `rand_range(min, max)` functions to use random numbers.
-
 -   `void srand(unsigned int c_seed)`: Used to set the seed of the random number generator.
 -   `int rand()`: Returns a random integer.
 -   `int rand_range(int min, int max)`: Returns a random integer within a specific range (including min and max).
